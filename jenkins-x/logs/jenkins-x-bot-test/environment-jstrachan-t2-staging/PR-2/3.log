@@ -1,0 +1,25 @@
+Step: build-step-credential-initializer-zmwtw:
+
+{"level":"warn","ts":1554353551.28095,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/backport-container-name-fix\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1554353551.281378,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+Step: build-step-git-source-******************-environment-fppb4:
+
+{"level":"warn","ts":1554353552.5903242,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/backport-container-name-fix\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1554353553.6513872,"logger":"fallback-logger","caller":"git-init/main.go:99","msg":"Successfully cloned \"https://github.com/******************/environment-jstrachan-t2-staging\" @ \"649ec41993d072799c1931d17c87f8ca5bd225ca\" in path \"/workspace/source\""}
+Step: build-step-place-tools:
+
+Step: build-step-build-helm-build:
+
+No $CHART_REPOSITORY defined so using the default value of: http://jenkins-x-chartmuseum:8080
+Adding missing Helm repo: jenkins-x http://chartmuseum.jenkins-x.io
+Successfully added Helm repository jenkins-x.
+Adding missing Helm repo: releases http://jenkins-x-chartmuseum:8080
+Successfully added Helm repository releases.
+Step: build-step-source-mkdir-******************-environment-mr6g9:
+
+{"level":"warn","ts":1554353571.069356,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1554353571.0911562,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /pvc/from-build-pack/workspace\""}
+Step: build-step-source-copy-******************-environment-f8bpt:
+
+{"level":"warn","ts":1554353572.1131167,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1554353572.1213932,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"cp -r /workspace/source/. /pvc/from-build-pack/workspace\""}
