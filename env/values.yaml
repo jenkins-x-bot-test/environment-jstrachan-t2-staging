@@ -7,6 +7,7 @@ cleanup:
   - --cleanup
 controllerbuild:
   enabled: true
+dockerRegistry: gcr.io
 expose:
   Annotations:
     helm.sh/hook: post-install,post-upgrade
@@ -15,7 +16,7 @@ expose:
   - --v
   - 4
   config:
-    domain: 34.76.173.251.nip.io
+    domain: 35.205.221.222.nip.io
     exposer: Ingress
     http: "true"
 jenkins:
