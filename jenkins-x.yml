@@ -11,3 +11,5 @@ pipelineConfig:
                 - name: DEPLOY_NAMESPACE
                   value: jx-staging
             steps:
+              - command: echo
+                args: ['totally unncesssary but our validation is too strict']
