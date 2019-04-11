@@ -5,3 +5,4 @@ pipelineConfig:
         environment:
           - name: DEPLOY_NAMESPACE
             value: jx-staging
+        stages:
