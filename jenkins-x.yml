@@ -6,3 +6,8 @@ pipelineConfig:
           - name: DEPLOY_NAMESPACE
             value: jx-staging
         stages:
+          - name: A stage with environment
+            environment:
+                - name: DEPLOY_NAMESPACE
+                  value: jx-staging
+            steps:
